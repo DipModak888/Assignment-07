@@ -1,6 +1,12 @@
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
+import Navbar from "@/components/Navbar";
+import PriceMarquee from "@/components/PriceMarquee";
+import { Suspense } from "react";
+import GlobalSuspense from "@/components/GlobalSuspense";
+import { Toaster } from "react-hot-toast";
+import Footer from "@/components/Footer";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -23,7 +29,19 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
       lang="en"
       className={`${geistSans.variable} ${geistMono.variable} h-full antialiased`}
     >
-      <body className="min-h-full flex flex-col">{children}</body>
+      <body className="min-h-full flex flex-col">
+        <GlobalSuspense>
+          <Toaster
+            position="top-center"
+            reverseOrder={false}
+            toastOptions={{ duration: 3000 }}
+          />
+          <Navbar></Navbar>
+          <PriceMarquee />
+          <main className="container mx-auto">{children}</main>
+          <Footer />
+        </GlobalSuspense>
+      </body>
     </html>
   );
 }
