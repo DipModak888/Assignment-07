@@ -32,6 +32,7 @@ const Hero = () => {
                     alt="banner"
                     width={300}
                     height={300}
+                    loading="eager"
                 />
             </div>
         </section>

@@ -1,36 +1,27 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+🛒 বাজার দর (BazarDor)
 
-## Getting Started
+Your Daily Market Price Companion in Bangladesh 🇧🇩
 
-First, run the development server:
+BazarDor is a modern and responsive web application that helps users explore daily prices of essential products in Bangladesh. Users can check product prices, compare market rates, track price changes, and browse different product categories through a simple and user-friendly interface.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+🛠️ Technologies Used
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+* Next.js – Application framework and routing.
+* React – Building interactive user interfaces.
+* TypeScript – Type safety and maintainable code.
+* Tailwind CSS – Responsive styling and modern UI design.
+* DaisyUI – Reusable UI components.
+* Better Auth – User authentication and authorization.
+* React Hot Toast – Notifications and user feedback.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+✨ Key Features
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+1. Daily Market Prices: Explore the latest prices of essential products such as rice, vegetables, fish, meat, and other daily necessities.
+2. Price Tracking: Identify products with increasing or decreasing prices through visual indicators and percentage badges.
+3. Product Details: View detailed product information, including minimum, maximum, and average prices across different local markets.
+4. Category & Price Sorting: Browse products by category and sort them from lowest to highest or highest to lowest price.
+5. User Authentication & Profile: Register, sign in with email or social accounts, access protected pages, and update profile information.
 
-## Learn More
+⸻
 
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+BazarDor – Know Your Daily Market Prices at a Glance! 🇧🇩

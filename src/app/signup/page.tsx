@@ -25,7 +25,7 @@ export default function SignUpPage() {
             return;
         }
         if (password !== confirmPassword) {
-            toast.error("পাসওয়ার্ড মিল েই!");
+            toast.error("পাসওয়ার্ড মিল নেই!");
             return;
         }
         if (password.length < 8) {
