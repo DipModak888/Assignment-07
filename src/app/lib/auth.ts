@@ -3,8 +3,8 @@ import { MongoClient } from "mongodb";
 import { mongodbAdapter } from "@better-auth/mongo-adapter";
 import { nextCookies } from "better-auth/next-js";
 
-// const uri = process.env.MONGODB_URI;
-const uri = "mongodb://bazer-dor-1:179wfFFI7IGJKhs4@ac-twz7lir-shard-00-00.hrksx44.mongodb.net:27017,ac-twz7lir-shard-00-01.hrksx44.mongodb.net:27017,ac-twz7lir-shard-00-02.hrksx44.mongodb.net:27017/?ssl=true&replicaSet=atlas-k3a8om-shard-0&authSource=admin"
+const uri = process.env.MONGODB_URI;
+
 if (!uri) {
     throw new Error("MONGODB_URI is not defined");
 }
