@@ -14,7 +14,7 @@ const Hero = () => {
                     আজকের বাজারের দাম এক
                     <br className="hidden sm:block" /> নজরে
                 </h1>
-                <p className="mb-5 max-w-xl text-xl leading-7 text-[#68766c]">
+                <p className="mb-5 max-w-xl text-[19px] leading-7 text-[#68766c]">
                     চাল, ডাল, তেল, সবজি, মাছ, মাংস, ডিম ও মসলার দাম — বাজারের সর্বশেষ দর,
                     দাম বৃদ্ধি ও হ্রাসের আপডেট সবকিছু এক জায়গায়।
                 </p>
