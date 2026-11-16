@@ -4,7 +4,7 @@ import { mongodbAdapter } from "@better-auth/mongo-adapter";
 import { nextCookies } from "better-auth/next-js";
 
 const client = new MongoClient(process.env.MONGODB_URI as string);
-const db = client.db();
+const db = client.db("bazar-dor");
 
 export const auth = betterAuth({
     emailAndPassword: {
